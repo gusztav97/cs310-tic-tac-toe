@@ -38,7 +38,7 @@ public class TicTacToeView {
         else
             System.out.println("\n\nPlayer 2 (O) Move: ");
         
-        System.out.println("Enter the row and column numbers, separated by a space: ");
+        System.out.print("Enter the row and column numbers, separated by a space: ");
 
     }
 
@@ -47,6 +47,7 @@ public class TicTacToeView {
         /* Display an error if input is invalid (see examples) */
 
         /* INSERT YOUR CODE HERE */
+		System.out.println("Input is Invalid");
 
     }
 
@@ -54,7 +55,7 @@ public class TicTacToeView {
 
         /* Display final winner */
 
-        System.out.println(r + "!");
+        System.out.println("\n\n" + r + "!");
 
     }
 	
