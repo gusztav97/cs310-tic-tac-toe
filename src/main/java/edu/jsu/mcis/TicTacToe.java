@@ -8,12 +8,7 @@ public class TicTacToe {
 
     private static final int DEFAULT_WIDTH = 3;
 	
-	/*private static void GUI(){
-			JFrame frame = new JFrame("Tic-Tac-Toe");
-			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-			frame.setVisible(true);
-		
-	}*/
+	
 
     public static void main(String[] args) {
         
@@ -21,14 +16,7 @@ public class TicTacToe {
 
         int width = DEFAULT_WIDTH;
         /* If a different size is provided as a command-line argument, use it instead */
-		/*javax.swing.SwingUtilities.invokeLater(new Runnable(){
-			public void run(){
-				GUI();
-			}
-		});
-		*/
 		
-
         if(args.length >= 1) {
             
             try {
@@ -54,16 +42,6 @@ public class TicTacToe {
         /* MAIN LOOP */
 		
 		
-
-        /*while (!model.isGameover()){
-            
-            view.viewModel();
-			
-            //controller.controlModel();
-			
-            
-        }
-		*/
         
         /* Game is over; show the final board and the winner */
 
