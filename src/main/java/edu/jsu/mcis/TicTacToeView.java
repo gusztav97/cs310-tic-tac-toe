@@ -106,13 +106,33 @@ public class TicTacToeView extends JPanel implements ActionListener{
 		}
 		if(model.getResult() == TicTacToeModel.Result.X){
 			resultLabel.setText("X");
+			
+			for(int row = 0; row < model.getWidth(); row++){
+				for(int col = 0; col < model.getWidth(); col++){
+					squares[row][col].setEnabled(false);
+				}
+			}
 		}
 		
 		if(model.getResult() == TicTacToeModel.Result.O){
 			resultLabel.setText("O");
+			
+			
+			for(int row = 0; row < model.getWidth(); row++){
+				for(int col = 0; col < model.getWidth(); col++){
+					squares[row][col].setEnabled(false);
+				}
+			}
 		}
 		if(model.getResult() == TicTacToeModel.Result.TIE){
 			resultLabel.setText("TIE");
+			
+			
+			for(int row = 0; row < model.getWidth(); row++){
+				for(int col = 0; col < model.getWidth(); col++){
+					squares[row][col].setEnabled(false);
+				}
+			}
 		}
 		//}
 		
